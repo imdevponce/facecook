@@ -1,2 +1,2 @@
 # facecook
-A social network page for chefs
+A social networking platform for chefs
