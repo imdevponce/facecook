@@ -1,4 +1,4 @@
-const post1 = {
+export const post1 = {
     id: 1,
     username: 'Saray Ponce',
     time: '10 h',
