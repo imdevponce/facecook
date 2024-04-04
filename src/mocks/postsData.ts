@@ -110,3 +110,17 @@ export const posts = [
     post9,
     post10
   ]
+
+export const getPostData = (postId: string) => {
+    const parsedId = parseInt(postId)
+    if (isNaN(parsedId)) {
+        return null
+    }
+    const userIndex = posts.findIndex((user) => user.id === parsedId)
+    const noUserFound = userIndex === -1
+    if (noUserFound) {
+        return null
+    }
+    const userData = posts[userIndex]
+    return userData
+}
