@@ -1,4 +1,56 @@
 .container {
-  padding: 0 65px;
-  height: 100vh;
+  padding: 30px 65px;
+  height: auto;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.postContainer {
+  width: auto;
+  max-width: 500px;
+  margin-bottom: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 20px;
+}
+
+.userImage {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.postContent {
+  display: flex;
+  gap: 10px;
+}
+
+.postDescription {
+  margin: 10px 0;
+}
+.postUserData {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.postUserName {
+  font-weight: 600;
+}
+.postTime{
+  font-size: 12px;
+}
+.postLocation {
+  font-size: 12px;
+}
+.link {
+  text-decoration: none; 
+  color: #000000;
+}
+
+@media (max-width: 425px) {
+  .container {
+      padding: 30px;
+  }
 }
