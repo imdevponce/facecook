@@ -19,7 +19,7 @@ export default function PostPage({ params }:PostPageProps) {
   const { postId } = params
   const postData = getPostData(postId)
   if (!postData) {
-    return <p>Post not found</p>
+    return <p className={styles.postNotFound}>Post not found</p>
   }
   const renderComments = (comments: CommentProps[]) => {
     if (comments.length) {

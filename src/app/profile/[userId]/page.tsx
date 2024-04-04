@@ -9,6 +9,9 @@ interface ProfileProps {
 export default function ProfilePage({ params }: ProfileProps ){
   const { userId } = params
   const userData = getUserData(userId)
+  if (!userData) {
+    return <p className={styles.userNotFound}>User not found</p>
+  }
   return (
     <div className={styles.profileContainer}>
         <div className={styles.profileContentContainer}>
