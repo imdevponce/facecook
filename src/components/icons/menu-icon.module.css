@@ -1,0 +1,8 @@
+.menuIcon {
+    cursor: pointer;
+}
+@media (min-width: 1024px) {
+    .menuIcon {
+        display: none;
+    }
+}
