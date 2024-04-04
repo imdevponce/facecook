@@ -1,0 +1,29 @@
+.postPageContainer {
+    padding: 30px 65px;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.commentsContainer {
+    margin-top: 10px;
+    max-width: 500px;
+    width: 100%;
+    border: 1px solid #d9d9d9;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 5px;
+}
+.postNotFound {
+    min-height: 100vh;
+    text-align: center;
+    padding: 15px;
+}
+@media (max-width: 425px) {
+    .postPageContainer {
+        padding: 30px;
+    }
+  }

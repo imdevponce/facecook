@@ -1,0 +1,32 @@
+.footerContainer {
+    min-height: 80px;
+    border-top: 1px solid #d9d9d9;
+    background-color: #E5E5E5;
+    padding: 20px 60px;
+}
+
+@media (max-width: 425px) {
+    .footerContainer {
+        padding: 10px 30px;
+    }
+}
+.footerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.strong {
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.info {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+}
+.infoItem {
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
+}

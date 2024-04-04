@@ -1,0 +1,75 @@
+.profileContainer {
+    padding: 10px 65px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profileContentContainer {
+    max-width: 1000px; 
+    width: 80%;
+    padding: 10px 0px;
+}
+.coverImage {
+    height: 200px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.generalInfo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    padding: 15px;
+}
+.profilePicture {
+    min-height: 150px;
+    position: relative;
+    min-width: 150px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.detailsContainer {
+    max-width: 1000px; 
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #d9d9d9;
+    padding: 20px 15px;
+    border-radius: 10px;
+}
+.detail {
+    font-size: 14px;
+}
+.userNotFound {
+    min-height: 100vh;
+    text-align: center;
+    padding: 15px;
+}
+@media (max-width: 425px) {
+    .profileContainer {
+        padding: 30px;
+    }
+    .profileContentContainer {
+        width: 100%;
+    }
+    .profilePicture {
+        min-height: 80px;
+        min-width: 80px;
+    }
+    .username {
+        font-size: 16px;
+    }
+}
+@media (max-width: 768px) {
+    .username {
+        font-size: 24px;
+    }
+    .profilePicture {
+        min-height: 100px;
+        min-width: 100px;
+    }
+}

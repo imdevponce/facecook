@@ -1,0 +1,47 @@
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #d9d9d9;
+    min-height: 80px;
+    height: auto;
+    padding: 10px 65px;
+}
+.facecookLogo {
+    cursor: pointer;
+}
+.userOptionsContainer {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+.userOptions {
+    position: absolute;
+    top: 130%; 
+    width: 150px;
+    height: auto;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    z-index: 99999;
+}
+.link {
+    list-style-type: none;
+    color: #000000;
+    text-decoration: none;
+}
+.link:hover{
+    color: #57C2E2;
+    transition: 250ms;
+}
+@media (max-width: 425px) {
+    .headerContainer {
+        padding: 10px 30px;
+    }
+    .username {
+        display: none;
+    }
+}
