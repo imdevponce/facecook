@@ -4,7 +4,6 @@ import { menuAtom } from '@/components/icons/menuAtom'
 import { useAtom } from 'jotai'
 import styles from './sidebar.module.css'
 import XIcon from './icons/XIcon'
-import Link from 'next/link'
 const SideBar = () => {
   const [isVisible, setIsVisible] = useAtom(menuAtom)
   const onHandleClick = () => {
