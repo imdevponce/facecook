@@ -11,15 +11,23 @@
         padding: 10px 30px;
     }
 }
-
-.brand {
+.footerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.strong {
     font-size: 14px;
     font-weight: 600;
+    cursor: pointer;
 }
 .info {
-    margin-top: 5px;
     font-size: 12px;
+    display: flex;
+    flex-direction: column;
 }
 .infoItem {
     cursor: pointer;
+    text-decoration: none;
+    color: #000000;
 }
