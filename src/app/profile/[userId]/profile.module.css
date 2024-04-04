@@ -45,6 +45,11 @@
 .detail {
     font-size: 14px;
 }
+.userNotFound {
+    min-height: 100vh;
+    text-align: center;
+    padding: 15px;
+}
 @media (max-width: 425px) {
     .profileContainer {
         padding: 30px;
