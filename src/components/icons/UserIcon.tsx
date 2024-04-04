@@ -15,7 +15,6 @@ function UserIcon ({ height, width, onClick }: Props) {
         viewBox="0 0 96.000000 96.000000" 
         preserveAspectRatio="xMidYMid meet" 
         onClick={onClick}
-        data-testid="user-icon"
         >
       <g transform="translate(0.000000,96.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
         <path d="M412 869 c-48 -14 -109 -80 -123 -131 -23 -89 12 -182 88 -229 57 -36 154 -34 210 3 62 41 88 90 88 168 0 77 -26 127 -85 166 -43 29 -125 39 -178 23z m136 -69 c42 -26 72 -76 72 -120 0 -44 -30 -94 -72 -120 -117 -71 -259 71 -188 188 26 42 76 72 120 72 19 0 50 -9 68 -20z"/>
