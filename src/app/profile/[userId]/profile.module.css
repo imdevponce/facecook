@@ -1,6 +1,5 @@
 .profileContainer {
     padding: 10px 65px;
-    height: auto;
     min-height: 100vh;
     display: flex;
     flex-direction: column;

@@ -7,6 +7,7 @@ import Image from "next/image";
 import MenuIcon from './icons/MenuIcon'
 import UserIcon from './icons/UserIcon'
 import Link from "next/link";
+
 export default function Header() {
   const [userData] = useAtom(userAtom)
   const [displayUserOptions, setDisplayUserOptions] = useState(false)
