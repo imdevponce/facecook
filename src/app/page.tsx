@@ -17,8 +17,8 @@ const renderPosts = (posts: postData[]): any => {
     return posts.map((post) => (
       <Post key={post.id} post={post}/>
     ))
-}
-    return null
+  }
+  return null
 }
 export default function Home() {
   return (

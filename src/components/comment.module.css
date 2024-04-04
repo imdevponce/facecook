@@ -1,0 +1,35 @@
+/* comments */
+.userImage {
+    position: relative;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.postUsername {
+    font-weight: 600;
+}
+.link {
+    text-decoration: none; 
+    color: #000000;
+}
+.userInfo {
+    display: flex;
+    gap: 10px;
+}
+.postUserData {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.commentTime {
+    font-size: 12px;
+}
+.commentContainer {
+    background-color: #F9F9F9;
+    border-radius: 10px;
+    padding: 10px;
+}
+.comment {
+    margin-top: 10px;
+}
