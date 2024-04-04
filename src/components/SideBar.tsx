@@ -18,9 +18,9 @@ const SideBar = () => {
             <XIcon height={25} width={25} onClick={onHandleClick}/>
           </div>
           <div className={styles.barLinksContainer}>
-            <Link href="/recipes" onClick={onHandleClick} className={styles.link}>
+            <a href="https://www.simplyrecipes.com/" onClick={onHandleClick} className={styles.link}>
                 Recipes
-            </Link>
+            </a>
           </div>
         </div>
         <div className={styles.overlayContent}/>
