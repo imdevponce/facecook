@@ -41,6 +41,8 @@
     .headerContainer {
         padding: 10px 30px;
     }
+}
+@media (max-width: 768px) {
     .username {
         display: none;
     }
